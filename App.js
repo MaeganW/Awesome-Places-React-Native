@@ -11,15 +11,15 @@ export default class App extends Component {
   onPlaceAdded = (place) => {
     this.setState(prevState => {
       return {
-        places: prevState.places.concat(place)
+        places: prevState.places.concat({ name: place, key: Math.random() })
       }
     })
   }
 
-  onItemPressed = (index) => {
+  onItemPressed = (key) => {
     this.setState(prevState => {
       return {
-        places: prevState.places.filter((place, i) => i !== index)
+        places: prevState.places.filter((place) => place.key !== key)
       }
     })
   }
