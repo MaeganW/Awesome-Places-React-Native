@@ -27,6 +27,14 @@ export default class App extends Component {
     })
   }
 
+  onItemPressed = (index) => {
+    this.setState(prevState => {
+      return {
+        places: prevState.places.filter((place, i) => i !== index)
+      }
+    })
+  }
+
   render() {
     return (
       <View style={styles.container}>
@@ -36,7 +44,9 @@ export default class App extends Component {
             onPlaceSubmitted={this.onPlaceSubmitted}
             placeName={this.state.placeName} />
         </View>
-        <PlacesList places={this.state.places} />
+        <PlacesList
+          places={this.state.places}
+          onItemPressed={this.onItemPressed} />
       </View>
     );
   }
