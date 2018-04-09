@@ -1,19 +1,41 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { View, TextInput, Button, StyleSheet } from 'react-native';
 
-const PlacesInput = (props) => (
-  <View style={styles.container}>
-    <TextInput
-      style={styles.placeInput}
-      value={props.placeName}
-      onChangeText={props.onPlaceNameChanged}
-      placeholder='An Awesome Place' />
-    <Button
-      style={styles.placeButton}
-      onPress={props.onPlaceSubmitted}
-      title='Add' />
-  </View>
-);
+class PlacesInput extends Component {
+  state = {
+    placeName: ''
+  }
+
+  onPlaceNameChanged = (val) => {
+    this.setState({
+      placeName: val
+    })
+  }
+
+  onPlaceSubmitted = () => {
+    if (this.state.placeName.trim() === '') {
+      return;
+    }
+    //emits up to the parent
+    this.props.onPlaceAdded(this.state.placeName);
+  }
+
+  render() {
+    return (
+      <View style={styles.container}>
+        <TextInput
+          style={styles.placeInput}
+          value={this.state.placeName}
+          onChangeText={this.onPlaceNameChanged}
+          placeholder='An Awesome Place' />
+        <Button
+          style={styles.placeButton}
+          onPress={this.onPlaceSubmitted}
+          title='Add' />
+      </View>
+    );
+  }
+};
 
 const styles = StyleSheet.create({
   container: {

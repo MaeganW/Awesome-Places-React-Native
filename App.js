@@ -5,24 +5,13 @@ import PlacesList from './src/components/PlacesList/PlacesList';
 
 export default class App extends Component {
   state = {
-    placeName: '',
     places: []
   }
 
-  onPlaceNameChanged = (val) => {
-    this.setState({
-      placeName: val
-    })
-  }
-
-  onPlaceSubmitted = () => {
-    if (this.state.placeName.trim() === '') {
-      return;
-    }
-
+  onPlaceAdded = (place) => {
     this.setState(prevState => {
       return {
-        places: prevState.places.concat(prevState.placeName)
+        places: prevState.places.concat(place)
       }
     })
   }
@@ -38,12 +27,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.inputContainer}>
-          <PlacesInput
-            onPlaceNameChanged={this.onPlaceNameChanged}
-            onPlaceSubmitted={this.onPlaceSubmitted}
-            placeName={this.state.placeName} />
-        </View>
+        <PlacesInput onPlaceAdded={this.onPlaceAdded} />
         <PlacesList
           places={this.state.places}
           onItemPressed={this.onItemPressed} />
@@ -59,11 +43,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'flex-start',
-  },
-  inputContainer: {
-    width: '100%'
-  },
-  listContainer: {
-    width: '100%'
   }
 });
