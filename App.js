@@ -34,7 +34,7 @@ export default class App extends Component {
     })
   }
 
-  onItemPressed = (key) => {
+  onPlaceSelected = (key) => {
     this.setState(prevState => {
       return {
         selectedPlace: prevState.places.find(place => place.key === key)
@@ -52,7 +52,7 @@ export default class App extends Component {
         <PlacesInput onPlaceAdded={this.onPlaceAdded} />
         <PlacesList
           places={this.state.places}
-          onItemPressed={this.onItemPressed} />
+          onPlaceSelected={this.onPlaceSelected} />
       </View>
     );
   }
