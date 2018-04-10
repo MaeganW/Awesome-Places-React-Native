@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 import PlacesInput from './src/components/PlacesInput/PlacesInput';
 import PlacesList from './src/components/PlacesList/PlacesList';
-import PlaceImage from './src/assets/Place1.png'
+import PlaceImage from './src/assets/Place1.png';
+import PlaceDetail from './src/components/PlaceDetail/PlaceDetail';
 
 export default class App extends Component {
   state = {
-    places: []
+    places: [],
+    selectedPlace: null
   }
 
   onPlaceAdded = (place) => {
@@ -17,10 +19,25 @@ export default class App extends Component {
     })
   }
 
+  onPlaceDeleted = () => {
+    this.setState(prevState => {
+      return {
+        places: prevState.places.filter((place) => place.key !== prevState.selectedPlace.key),
+        selectedPlace: null
+      }
+    })
+  }
+
+  onModalClose = () => {
+    this.setState({
+      selectedPlace: null
+    })
+  }
+
   onItemPressed = (key) => {
     this.setState(prevState => {
       return {
-        places: prevState.places.filter((place) => place.key !== key)
+        selectedPlace: prevState.places.find(place => place.key === key)
       }
     })
   }
@@ -28,6 +45,10 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <PlaceDetail
+          selectedPlace={this.state.selectedPlace}
+          onPlaceDeleted={this.onPlaceDeleted}
+          onModalClose={this.onModalClose} />
         <PlacesInput onPlaceAdded={this.onPlaceAdded} />
         <PlacesList
           places={this.state.places}
