@@ -28,7 +28,7 @@ const placesReducer = (oldState = initialState, action) => {
         ...oldState,
         selectedPlace: oldState.places.find(place => place.key === action.placeKey)
       }
-    case DELETE_PLACE:
+    case DESELECT_PLACE:
       return {
         ...oldState,
         selectedPlace: null
