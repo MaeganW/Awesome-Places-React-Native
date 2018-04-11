@@ -16,6 +16,7 @@ class App extends Component {
 
   onPlaceAdded = (placeName) => {
     this.props.onAddPlace(placeName);
+    console.log('Place added!!!')
     // this.setState(prevState => {
     //   return {
     //     places: prevState.places.concat({ name: placeName, key: Math.random(), image: PlaceImage })

@@ -13,7 +13,7 @@ const placesReducer = (oldState = initialState, action) => {
         ...oldState,
         places: oldState.places.concat({
           name: action.placeName,
-          key: Math.random(),
+          key: `${Math.random()}`,
           image: PlaceImage
         })
       };
