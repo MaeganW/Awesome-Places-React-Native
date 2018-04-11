@@ -4,10 +4,15 @@ ADDED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/sr
 INJECTED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-navigation] /Users/maeganwomble/Projects/react-native-practice-app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-20:12
 MERGED from [:react-native-vector-icons] /Users/maeganwomble/Projects/react-native-practice-app/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.54.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/react-native-0.54.0.aar/e617df11a0d779f5dfbd215463142f3e/AndroidManifest.xml:2:1-15:12
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/5570988246f912dd4a49b3c71ebcfa98/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:23.0.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/8e04c7a9a52a06c72fef7ccf2919f8e1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/081607a337da47a475cae97454828d9b/AndroidManifest.xml:2:1-14:12
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/b32ffad9371c4df3e9e7761b00909988/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a9cbd2a5a1f696b30ed8556609487874/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/2b4961903c62ddd659941b3800bbe64c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/79053816c9cb546c33de721c1b567f93/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/8630a6789ddffdc6a2fa9ede575b5179/AndroidManifest.xml:17:1-31:12
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/bd3bde533531081f87db734906f5bcfb/AndroidManifest.xml:10:1-18:12
 MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/96dbb0cbc5f8fd3b1a3bf0a884e1bdd2/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/6a36dacea9f09d125984813bcfd3a867/AndroidManifest.xml:2:1-9:12
@@ -17,6 +22,15 @@ MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/maeganwomble/.gradle/cache
 MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/110855e5cfa4a6639a85bbb44c07c099/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/1940bd594869d491e8e91c999e96868d/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/c3c1ee41d87fe167fdaff82f7157a9a0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/d918d8f60935fb5b3cb81253158d1e3c/AndroidManifest.xml:17:1-26:12
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/d455b98b8675505be86bd1f239fe746c/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7e79220cb1ea8d1bc48d759b0a8af2a2/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/4ddd5d89e920d263bd9aecea23a0147b/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/ac7daf21aace72bb71b3a9af64163ffb/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/11246d05b3215b4b7d99fc9c7d139905/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b4f2fc87912fe3ba4cbe17b1fe6d24b7/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/31d4da4d50b51b593daaae5341b04aca/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/339126f6562bf693dbb2775778a39166/AndroidManifest.xml:17:1-31:12
 INJECTED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml:1:1-26:12
@@ -46,16 +60,42 @@ MERGED from [com.facebook.react:react-native:0.54.0] /Users/maeganwomble/.gradle
 		ADDED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml:5:22-75
 application
 ADDED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [:react-native-navigation] /Users/maeganwomble/Projects/react-native-practice-app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
+MERGED from [:react-native-navigation] /Users/maeganwomble/Projects/react-native-practice-app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-18:19
 MERGED from [com.facebook.react:react-native:0.54.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/react-native-0.54.0.aar/e617df11a0d779f5dfbd215463142f3e/AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.react:react-native:0.54.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/react-native-0.54.0.aar/e617df11a0d779f5dfbd215463142f3e/AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/5570988246f912dd4a49b3c71ebcfa98/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/5570988246f912dd4a49b3c71ebcfa98/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/8e04c7a9a52a06c72fef7ccf2919f8e1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/8e04c7a9a52a06c72fef7ccf2919f8e1/AndroidManifest.xml:22:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/081607a337da47a475cae97454828d9b/AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/081607a337da47a475cae97454828d9b/AndroidManifest.xml:12:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/b32ffad9371c4df3e9e7761b00909988/AndroidManifest.xml:11:5-20
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/b32ffad9371c4df3e9e7761b00909988/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a9cbd2a5a1f696b30ed8556609487874/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a9cbd2a5a1f696b30ed8556609487874/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/2b4961903c62ddd659941b3800bbe64c/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/2b4961903c62ddd659941b3800bbe64c/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/79053816c9cb546c33de721c1b567f93/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/79053816c9cb546c33de721c1b567f93/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/8630a6789ddffdc6a2fa9ede575b5179/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/8630a6789ddffdc6a2fa9ede575b5179/AndroidManifest.xml:29:5-20
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/3582cb61fb3dd85e1329daed79352c7c/AndroidManifest.xml:3:3-17
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/3582cb61fb3dd85e1329daed79352c7c/AndroidManifest.xml:3:3-17
 MERGED from [org.webkit:android-jsc:r174650] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/4a365aeb417d711a58de7e5b50f49402/AndroidManifest.xml:2:3-17
 MERGED from [org.webkit:android-jsc:r174650] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/4a365aeb417d711a58de7e5b50f49402/AndroidManifest.xml:2:3-17
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/d455b98b8675505be86bd1f239fe746c/AndroidManifest.xml:12:5-20
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/d455b98b8675505be86bd1f239fe746c/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7e79220cb1ea8d1bc48d759b0a8af2a2/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7e79220cb1ea8d1bc48d759b0a8af2a2/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/4ddd5d89e920d263bd9aecea23a0147b/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/4ddd5d89e920d263bd9aecea23a0147b/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/ac7daf21aace72bb71b3a9af64163ffb/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/ac7daf21aace72bb71b3a9af64163ffb/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/11246d05b3215b4b7d99fc9c7d139905/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/11246d05b3215b4b7d99fc9c7d139905/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b4f2fc87912fe3ba4cbe17b1fe6d24b7/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b4f2fc87912fe3ba4cbe17b1fe6d24b7/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/31d4da4d50b51b593daaae5341b04aca/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/31d4da4d50b51b593daaae5341b04aca/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/339126f6562bf693dbb2775778a39166/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/339126f6562bf693dbb2775778a39166/AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml:9:7-39
 	android:icon
@@ -88,20 +128,34 @@ ADDED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/sr
 		ADDED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml:20:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
 ADDED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml:23:7-84
+MERGED from [:react-native-navigation] /Users/maeganwomble/Projects/react-native-practice-app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
+MERGED from [:react-native-navigation] /Users/maeganwomble/Projects/react-native-practice-app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from [:react-native-navigation] /Users/maeganwomble/Projects/react-native-practice-app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:17:13-37
 	android:name
 		ADDED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml:23:17-81
 uses-sdk
 INJECTED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-navigation] /Users/maeganwomble/Projects/react-native-practice-app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] /Users/maeganwomble/Projects/react-native-practice-app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Users/maeganwomble/Projects/react-native-practice-app/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /Users/maeganwomble/Projects/react-native-practice-app/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.54.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/react-native-0.54.0.aar/e617df11a0d779f5dfbd215463142f3e/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.54.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/react-native-0.54.0.aar/e617df11a0d779f5dfbd215463142f3e/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/5570988246f912dd4a49b3c71ebcfa98/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/5570988246f912dd4a49b3c71ebcfa98/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/8e04c7a9a52a06c72fef7ccf2919f8e1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/8e04c7a9a52a06c72fef7ccf2919f8e1/AndroidManifest.xml:20:5-43
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/081607a337da47a475cae97454828d9b/AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.4.aar/081607a337da47a475cae97454828d9b/AndroidManifest.xml:8:5-10:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/b32ffad9371c4df3e9e7761b00909988/AndroidManifest.xml:7:5-9:41
+MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.0.6.aar/b32ffad9371c4df3e9e7761b00909988/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a9cbd2a5a1f696b30ed8556609487874/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a9cbd2a5a1f696b30ed8556609487874/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/2b4961903c62ddd659941b3800bbe64c/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/2b4961903c62ddd659941b3800bbe64c/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/79053816c9cb546c33de721c1b567f93/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/79053816c9cb546c33de721c1b567f93/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/8630a6789ddffdc6a2fa9ede575b5179/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/8630a6789ddffdc6a2fa9ede575b5179/AndroidManifest.xml:21:5-23:54
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/bd3bde533531081f87db734906f5bcfb/AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/bd3bde533531081f87db734906f5bcfb/AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/96dbb0cbc5f8fd3b1a3bf0a884e1bdd2/AndroidManifest.xml:5:5-7:41
@@ -118,8 +172,28 @@ MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/maeganwomble/.
 MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/1940bd594869d491e8e91c999e96868d/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/c3c1ee41d87fe167fdaff82f7157a9a0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/c3c1ee41d87fe167fdaff82f7157a9a0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/d918d8f60935fb5b3cb81253158d1e3c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/d918d8f60935fb5b3cb81253158d1e3c/AndroidManifest.xml:20:5-43
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/d455b98b8675505be86bd1f239fe746c/AndroidManifest.xml:8:5-10:41
+MERGED from [com.balysv.materialmenu:material-menu:1.5.4] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/material-menu-1.5.4.aar/d455b98b8675505be86bd1f239fe746c/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7e79220cb1ea8d1bc48d759b0a8af2a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7e79220cb1ea8d1bc48d759b0a8af2a2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/4ddd5d89e920d263bd9aecea23a0147b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/4ddd5d89e920d263bd9aecea23a0147b/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/ac7daf21aace72bb71b3a9af64163ffb/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/ac7daf21aace72bb71b3a9af64163ffb/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/11246d05b3215b4b7d99fc9c7d139905/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/11246d05b3215b4b7d99fc9c7d139905/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b4f2fc87912fe3ba4cbe17b1fe6d24b7/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b4f2fc87912fe3ba4cbe17b1fe6d24b7/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/31d4da4d50b51b593daaae5341b04aca/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/31d4da4d50b51b593daaae5341b04aca/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/339126f6562bf693dbb2775778a39166/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/339126f6562bf693dbb2775778a39166/AndroidManifest.xml:21:5-23:58
 INJECTED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml
 INJECTED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a9cbd2a5a1f696b30ed8556609487874/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml
@@ -128,6 +202,40 @@ INJECTED from /Users/maeganwomble/Projects/react-native-practice-app/android/app
 		INJECTED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml
 		ADDED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml
+activity#com.reactnativenavigation.controllers.NavigationActivity
+ADDED from [:react-native-navigation] /Users/maeganwomble/Projects/react-native-practice-app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:12:9-14:86
+	android:configChanges
+		ADDED from [:react-native-navigation] /Users/maeganwomble/Projects/react-native-practice-app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:14:13-83
+	android:name
+		ADDED from [:react-native-navigation] /Users/maeganwomble/Projects/react-native-practice-app/node_modules/react-native-navigation/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:13:13-84
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a9cbd2a5a1f696b30ed8556609487874/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/2b4961903c62ddd659941b3800bbe64c/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/2b4961903c62ddd659941b3800bbe64c/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/79053816c9cb546c33de721c1b567f93/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/transition-25.3.1.aar/79053816c9cb546c33de721c1b567f93/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/8630a6789ddffdc6a2fa9ede575b5179/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/8630a6789ddffdc6a2fa9ede575b5179/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/d918d8f60935fb5b3cb81253158d1e3c/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-25.3.1.aar/d918d8f60935fb5b3cb81253158d1e3c/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7e79220cb1ea8d1bc48d759b0a8af2a2/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/7e79220cb1ea8d1bc48d759b0a8af2a2/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/4ddd5d89e920d263bd9aecea23a0147b/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/4ddd5d89e920d263bd9aecea23a0147b/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/ac7daf21aace72bb71b3a9af64163ffb/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/ac7daf21aace72bb71b3a9af64163ffb/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/11246d05b3215b4b7d99fc9c7d139905/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/11246d05b3215b4b7d99fc9c7d139905/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b4f2fc87912fe3ba4cbe17b1fe6d24b7/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/b4f2fc87912fe3ba4cbe17b1fe6d24b7/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/31d4da4d50b51b593daaae5341b04aca/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/31d4da4d50b51b593daaae5341b04aca/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/339126f6562bf693dbb2775778a39166/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/339126f6562bf693dbb2775778a39166/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a9cbd2a5a1f696b30ed8556609487874/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] /Users/maeganwomble/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/a9cbd2a5a1f696b30ed8556609487874/AndroidManifest.xml:26:9-47
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 IMPLIED from /Users/maeganwomble/Projects/react-native-practice-app/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
