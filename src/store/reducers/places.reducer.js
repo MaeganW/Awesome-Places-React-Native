@@ -1,4 +1,5 @@
-import { ADD_PLACE, DELETE_PLACE, SELECT_PLACE, DESELECT_PLACE } from '../actions/actionTypes';
+// import { ADD_PLACE, DELETE_PLACE, SELECT_PLACE, DESELECT_PLACE } from '../actions/actionTypes';
+import { ADD_PLACE, DELETE_PLACE } from '../actions/actionTypes';
 import PlaceImage from '../../assets/Place1.png';
 
 const initialState = {
@@ -23,16 +24,16 @@ const placesReducer = (oldState = initialState, action) => {
         places: oldState.places.filter((place) => place.key !== oldState.selectedPlace.key),
         selectedPlace: null
       };
-    case SELECT_PLACE:
-      return {
-        ...oldState,
-        selectedPlace: oldState.places.find(place => place.key === action.placeKey)
-      }
-    case DESELECT_PLACE:
-      return {
-        ...oldState,
-        selectedPlace: null
-      }
+    // case SELECT_PLACE:
+    //   return {
+    //     ...oldState,
+    //     selectedPlace: oldState.places.find(place => place.key === action.placeKey)
+    //   }
+    // case DESELECT_PLACE:
+    //   return {
+    //     ...oldState,
+    //     selectedPlace: null
+    //   }
     default:
       return oldState;
   }

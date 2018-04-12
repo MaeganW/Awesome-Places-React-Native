@@ -1,12 +1,30 @@
 import { Navigation } from 'react-native-navigation';
+import { Provider } from 'react-redux';
+
 import AuthScreen from './src/screens/Auth/Auth';
 import FindPlaceScreen from './src/screens/FindPlace/FindPlace';
 import SharePlaceScreen from './src/screens/SharePlace/SharePlace';
+import configureStore from './src/store/configureStore';
+
+const store = configureStore();
 
 // need to Register Screens
-Navigation.registerComponent("amazing-places.AuthScreen", () => AuthScreen);
-Navigation.registerComponent("amazing-places.SharePlaceScreen", () => SharePlaceScreen);
-Navigation.registerComponent("amazing-places.FindPlaceScreen", () => FindPlaceScreen);
+// only pass "store, Provider" to those screens that use Redux
+Navigation.registerComponent("amazing-places.AuthScreen",
+  () => AuthScreen,
+  store,
+  Provider
+);
+Navigation.registerComponent("amazing-places.SharePlaceScreen",
+  () => SharePlaceScreen,
+  store,
+  Provider
+);
+Navigation.registerComponent("amazing-places.FindPlaceScreen",
+  () => FindPlaceScreen,
+  store,
+  Provider
+);
 
 // Start an app for react native navigation
 Navigation.startSingleScreenApp({
