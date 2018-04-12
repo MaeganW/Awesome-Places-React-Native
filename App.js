@@ -5,6 +5,7 @@ import AuthScreen from './src/screens/Auth/Auth';
 import FindPlaceScreen from './src/screens/FindPlace/FindPlace';
 import SharePlaceScreen from './src/screens/SharePlace/SharePlace';
 import configureStore from './src/store/configureStore';
+import PlaceDetailScreen from './src/screens/PlaceDetail/PlaceDetail';
 
 const store = configureStore();
 
@@ -24,6 +25,9 @@ Navigation.registerComponent("amazing-places.FindPlaceScreen",
   () => FindPlaceScreen,
   store,
   Provider
+);
+Navigation.registerComponent("amazing-places.PlaceDetailScreen",
+  () => PlaceDetailScreen
 );
 
 // Start an app for react native navigation
