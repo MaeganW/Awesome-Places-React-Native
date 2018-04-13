@@ -21,7 +21,7 @@ const placesReducer = (oldState = initialState, action) => {
     case DELETE_PLACE:
       return {
         ...oldState,
-        places: oldState.places.filter((place) => place.key !== oldState.selectedPlace.key),
+        places: oldState.places.filter((place) => place.key !== action.placeKey),
         selectedPlace: null
       };
     // case SELECT_PLACE:

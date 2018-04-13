@@ -27,7 +27,9 @@ Navigation.registerComponent("amazing-places.FindPlaceScreen",
   Provider
 );
 Navigation.registerComponent("amazing-places.PlaceDetailScreen",
-  () => PlaceDetailScreen
+  () => PlaceDetailScreen,
+  store,
+  Provider
 );
 
 // Start an app for react native navigation

@@ -1,40 +1,31 @@
-import React from 'react';
-// import { Modal, Text, Button, View, Image, StyleSheet, TouchableOpacity } from 'react-native';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import { Text, Button, View, Image, StyleSheet, TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
-const PlaceDetail = props => {
-  // let modalContent = null;
+import { deletePlace } from '../../store/actions/places.actions';
 
-  // if (props.selectedPlace) {
-  //   modalContent = (
-  //     <View>
-  //       <Image style={styles.placeImage} source={props.selectedPlace.image} />
-  //       <Text style={styles.placeName} >{props.selectedPlace.name}</Text>
-  //     </View>
-  //   );
-  // }
+class PlaceDetail extends Component {
+  onPlaceDeleted = () => {
+    this.props.onDeletePlace(this.props.selectedPlace.key)
+    this.props.navigator.pop()
+  }
 
-  return (
-    // <Modal
-    //   visible={props.selectedPlace !== null}
-    //   animationType='slide'
-    //   onRequestClose={props.onModalClose} >
-    <View style={styles.container} >
-      <Image style={styles.placeImage} source={props.selectedPlace.image} />
-      <Text style={styles.placeName} >{props.selectedPlace.name}</Text>
-      {/* {modalContent} */}
-      <View>
-        <TouchableOpacity onPress={props.onPlaceDeleted}>
-          <View style={styles.deleteButton}>
-            <Icon name='ios-trash' color='red' size={35} />
-          </View>
-        </TouchableOpacity>
-        {/* <Button title='Close' onPress={props.onModalClose} /> */}
+  render() {
+    return (
+      <View style={styles.container} >
+        <Image style={styles.placeImage} source={this.props.selectedPlace.image} />
+        <Text style={styles.placeName} >{this.props.selectedPlace.name}</Text>
+        <View>
+          <TouchableOpacity onPress={this.onPlaceDeleted}>
+            <View style={styles.deleteButton}>
+              <Icon name='ios-trash' color='red' size={35} />
+            </View>
+          </TouchableOpacity>
+        </View>
       </View>
-    </View>
-    // </Modal>
-  )
+    );
+  }
 };
 
 const styles = StyleSheet.create({
@@ -56,4 +47,10 @@ const styles = StyleSheet.create({
   }
 })
 
-export default PlaceDetail;
+const mapDispatchToProps = dispatch => {
+  return {
+    onDeletePlace: key => dispatch(deletePlace(key))
+  }
+}
+
+export default connect(null, mapDispatchToProps)(PlaceDetail);

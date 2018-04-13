@@ -12,6 +12,7 @@ class FindPlaceScreen extends Component {
     this.props.navigator.push({
       screen: 'amazing-places.PlaceDetailScreen',
       title: selPlace.name,
+      // THESE PROPS ARE NOW ADDED TO THE PROPS PASSED TO THE PLACEDETAILSCREEN
       passProps: {
         selectedPlace: selPlace
       }
