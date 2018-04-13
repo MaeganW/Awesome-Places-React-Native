@@ -20,7 +20,10 @@ const startTabs = () => {
           title: 'Share Place',
           icon: imgSources[1]
         }
-      ]
+      ],
+      drawer: {
+        screen: 'amazing-places.SideDrawer'
+      }
     });
   })
 }
