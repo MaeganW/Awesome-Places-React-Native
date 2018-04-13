@@ -23,7 +23,8 @@ const startTabs = () => {
               {
                 icon: imgSources[2],
                 title: 'Menu',
-                id: 'sideDrawerToggle'
+                id: 'sideDrawerToggle',
+                passProps: {}
               }
             ]
           }
@@ -38,7 +39,8 @@ const startTabs = () => {
               {
                 icon: imgSources[2],
                 title: 'Menu',
-                id: 'sideDrawerToggle'
+                id: 'sideDrawerToggle',
+                passProps: {}
               }
             ]
           }
