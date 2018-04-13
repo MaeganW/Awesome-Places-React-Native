@@ -6,6 +6,7 @@ import FindPlaceScreen from './src/screens/FindPlace/FindPlace';
 import SharePlaceScreen from './src/screens/SharePlace/SharePlace';
 import configureStore from './src/store/configureStore';
 import PlaceDetailScreen from './src/screens/PlaceDetail/PlaceDetail';
+import SideDrawer from './src/screens/SideDrawer/SideDrawer';
 
 const store = configureStore();
 
@@ -30,6 +31,9 @@ Navigation.registerComponent("amazing-places.PlaceDetailScreen",
   () => PlaceDetailScreen,
   store,
   Provider
+);
+Navigation.registerComponent("amazing-places.SideDrawer",
+  () => SideDrawer
 );
 
 // Start an app for react native navigation
